@@ -1,5 +1,5 @@
 // Const assert = require("assert");
-const parcelPluginEsbuild = require("../index.js");
+const parcelPluginEsbuild = require("../lib/index.js");
 
 const Bundler = require("parcel-bundler");
 const path = require("path");

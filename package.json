@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "homepage": "",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
   "author": {
     "name": "bung87",
     "email": "crc32@qq.com",
@@ -71,8 +75,8 @@
   "repository": "bung87/parcel-plugin-esbuild",
   "jest": {
     "testPathIgnorePatterns": [
-      "<rootDir>/lib/__tests__/example.ts",
-      "<rootDir>/lib/__tests__/build/"
+      "<rootDir>/__tests__/example.ts",
+      "<rootDir>/__tests__/build/"
     ],
     "testEnvironment": "node"
   },
