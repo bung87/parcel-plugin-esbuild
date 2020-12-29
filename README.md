@@ -4,16 +4,10 @@
 ## Installation
 
 ```sh
-$ npm install --save parcel-plugin-esbuild
+$ npm install --save-dev parcel-plugin-esbuild
+$ yarn add parcel-plugin-esbuild -D
 ```
 
-## Usage
-
-```js
-const parcelPluginEsbuild = require('parcel-plugin-esbuild');
-
-parcelPluginEsbuild('Rainbow');
-```
 ## License
 
 MIT © [bung87]()
