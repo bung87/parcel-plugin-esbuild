@@ -1,0 +1,4 @@
+coverage
+lib/__tests__/example.ts
+dist
+lib/__tests__/build

@@ -1,0 +1,5 @@
+node_modules
+coverage
+lib/__tests__/build
+dist
+.cache

@@ -1,0 +1,84 @@
+{
+  "name": "parcel-plugin-esbuild",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "",
+  "author": {
+    "name": "bung87",
+    "email": "crc32@qq.com",
+    "url": ""
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "parcel",
+    "plugin",
+    "esbuild"
+  ],
+  "devDependencies": {
+    "esbuild": "^0.8.27",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.6.0",
+    "eslint-config-xo": "^0.27.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "husky": "^3.0.9",
+    "jest": "^26.1.0",
+    "lint-staged": "^9.4.3",
+    "parcel-assert-bundle-tree": "^1.0.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^1.19.1"
+  },
+  "engines": {
+    "npm": ">= 4.0.0"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.json": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "eslintConfig": {
+    "extends": [
+      "xo",
+      "prettier"
+    ],
+    "env": {
+      "jest": true,
+      "node": true
+    },
+    "rules": {
+      "prettier/prettier": "error"
+    },
+    "plugins": [
+      "prettier"
+    ]
+  },
+  "scripts": {
+    "pretest": "eslint --fix .",
+    "test": "jest"
+  },
+  "repository": "bung87/parcel-plugin-esbuild",
+  "jest": {
+    "testPathIgnorePatterns": [
+      "<rootDir>/lib/__tests__/example.ts",
+      "<rootDir>/lib/__tests__/build/"
+    ],
+    "testEnvironment": "node"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "esbuild": "^0.8.27",
+    "parcel-bundler": "^1.12.4"
+  }
+}
