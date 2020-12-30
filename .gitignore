@@ -3,3 +3,6 @@ coverage
 __tests__/build
 dist
 .cache
+lib/packagers
+lib/assets/TypeScriptRawAsset.js
+lib/assets/TSXRawAsset.js
