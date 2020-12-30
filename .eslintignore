@@ -1,4 +1,5 @@
 coverage
 __tests__/example.ts
 dist
-__tests__/build
+__tests__/tsbuild
+__tests__/esbuild

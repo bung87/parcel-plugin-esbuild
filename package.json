@@ -1,6 +1,6 @@
 {
   "name": "parcel-plugin-esbuild",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "homepage": "",
   "publishConfig": {
@@ -77,7 +77,8 @@
   "jest": {
     "testPathIgnorePatterns": [
       "<rootDir>/__tests__/example.ts",
-      "<rootDir>/__tests__/build/"
+      "<rootDir>/__tests__/tsbuild/",
+      "<rootDir>/__tests__/esbuild/"
     ],
     "testEnvironment": "node"
   },

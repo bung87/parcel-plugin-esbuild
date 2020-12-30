@@ -10,7 +10,7 @@ describe("compile ts with builtin typescript", () => {
     const t1 = performance.now();
 
     const bundler = new Bundler(path.join(__dirname, "./example.ts"), {
-      outDir: path.join(__dirname, "build"),
+      outDir: path.join(__dirname, "tsbuild"),
       watch: false,
       cache: false,
       hmr: false,
@@ -38,7 +38,7 @@ describe("compile ts with esbuild", () => {
     const t1 = performance.now();
 
     const bundler = new Bundler(path.join(__dirname, "./example.ts"), {
-      outDir: path.join(__dirname, "build"),
+      outDir: path.join(__dirname, "esbuild"),
       watch: false,
       cache: false,
       hmr: false,
