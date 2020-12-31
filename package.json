@@ -1,6 +1,6 @@
 {
   "name": "parcel-plugin-esbuild",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "homepage": "",
   "publishConfig": {
@@ -31,9 +31,11 @@
     "jest": "^26.1.0",
     "lint-staged": "^9.4.3",
     "parcel-assert-bundle-tree": "^1.0.0",
-    "parcel-bundler": "^1.12.4",
     "prettier": "^1.19.1",
     "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
   },
   "engines": {
     "npm": ">= 4.0.0"
