@@ -1,9 +1,7 @@
 language: node_js
 node_js:
+  - lts/*
   - v15
   - v14
   - v12
   - v10
-  - v8
-  - v6
-  - v4
