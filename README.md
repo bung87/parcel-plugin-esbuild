@@ -6,14 +6,13 @@ Simple works drop-in replacement for parcel's builtins.
 Currently support `ts`,`tsx`
 
 According to esbuild document remain js assets use parcel's builtins:  
-> ES5 support
-Transforming ES6+ syntax to ES5 is not supported yet.   
+> Transforming ES6+ syntax to ES5 is not supported yet.   
 > The CSS content type is new and is still a work in progress. 
 ## Installation
 
 ```sh
-$ npm install --save-dev parcel-plugin-esbuild
-$ yarn add parcel-plugin-esbuild -D
+$ npm install --save-dev parcel-plugin-esbuild esbuild
+$ yarn add parcel-plugin-esbuild esbuild -D
 ```
 ## Validation  
 transformer  
