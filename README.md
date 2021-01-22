@@ -30,7 +30,7 @@ MIT © [bung87]()
 
 [npm-image]: https://badge.fury.io/js/parcel-plugin-esbuild.svg
 [npm-url]: https://npmjs.org/package/parcel-plugin-esbuild
-[travis-image]: https://travis-ci.com/bung87/parcel-plugin-esbuild.svg?branch=master
+[travis-image]: https://travis-ci.com/bung87/parcel-plugin-esbuild.svg?branch=main
 [travis-url]: https://travis-ci.com/bung87/parcel-plugin-esbuild
 [daviddm-image]: https://david-dm.org/bung87/parcel-plugin-esbuild.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/bung87/parcel-plugin-esbuild
