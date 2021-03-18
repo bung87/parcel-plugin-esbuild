@@ -91,3 +91,7 @@ const coatDresser = new Dresser();
 
 coatDresser.add({ color: "green" });
 const coat = coatDresser.remove();
+
+if(require?.main === module){
+    const aa = require?.main ?? 1
+}

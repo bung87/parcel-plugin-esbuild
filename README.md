@@ -9,10 +9,6 @@ According to esbuild document remain js assets use parcel's builtins:
 > Transforming ES6+ syntax to ES5 is not supported yet.   
 > The CSS content type is new and is still a work in progress. 
 
-## Known issue  
-
-optional chaining `.?` and nullish coalescing operator `??` are not properly transformed even your tsconfig `target` set to `"es2018"`, in this case switch back to `typescript` compiler yourself.  
-
 ## Installation
 
 ```sh
