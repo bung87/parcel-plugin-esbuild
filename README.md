@@ -9,10 +9,6 @@ According to esbuild document remain js assets use parcel's builtins:
 > Transforming ES6+ syntax to ES5 is not supported yet.   
 > The CSS content type is new and is still a work in progress. 
 
-## Known issues  
-
-Not work well with javascript's `meta data` api  
-
 ## Installation
 
 ```sh
